@@ -36,8 +36,10 @@
 .navbar li a:hover {
   background-color: rgb(89, 0, 255);
   color: rgb(244, 245, 248);
-  padding: 2px;
-  border-radius: 5px;
+  /* padding: 2px; */
+  border: 5px;
+  /* size: 10px; */
+  /* margin: 5px; */
 }
 .divider {
   border: 0.1px solid rgb(233, 224, 224);
@@ -78,7 +80,7 @@
   padding: 3px;
   border: 1px solid blue;
   position: absolute;
-  bottom: 55px;
+  bottom:45px;
   border-radius: 5px;
   background-color: blue;
   color: white;
@@ -116,7 +118,7 @@
   position: relative;
   top: 120px;
   height: 35px;
-  left: -30px;
+  left: -33px;
   /* background-color: blue; */
   justify-content: space-evenly;
   padding: 10px;
@@ -124,11 +126,12 @@
 }
 .link i:hover {
   border-radius: 1px;
+  color: rgb(0, 97, 243);
 }
 
 .link a i {
   font-size: 30px;
-  color: black;
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
@@ -340,7 +343,7 @@ width: 850px;
 }
 
 .project #heading {
-  color: rgb(255, 0, 85);
+  color: rgb(8, 8, 8);
   position: relative;
   left:350px;
    top: -200px;
@@ -373,20 +376,21 @@ width: 850px;
   font-size: 40px;
   top: -170px;
   position: relative;
-  left: 350px;
+  left: 340px;
+  width: inherit;
 }
 
 .linksss {
-  display: flex
-;
+  display: flex;
   position: relative;
-  left: 220px;
+  left: 20px;
   /* margin: 100px; */
   padding: 20px;
   top: 185px;
 }
 
 .linksss a {
+  justify-content: space-between;
   font-size: 30px;
   color: black;
   cursor: pointer;
@@ -397,7 +401,7 @@ width: 850px;
 ;
   bottom: -289px;
   position: relative;
-  left: 20px;
+  left: -150px;
   /* margin: 15px; */
   /* top: 2830px; */
   font-size: 20px;
